@@ -1,0 +1,25 @@
+.f{
+	width:600px;
+	height:600px;
+	margin:150px 300px 100px;
+	color:#F60;
+	background-color:#CCFFE6;
+	}
+.form{
+	margin-top:30px;
+	margin-left:50px;
+	}
+.field input{
+	border-radius:5px;
+	
+	width:380px;
+	height:40px;}		
+	
+.field .textarea{
+    background-color:#FFF;
+	border-radius:5px;
+    height:200px;
+    width:380px;
+}
+.button{
+	background-color:#099;}

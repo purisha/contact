@@ -1,0 +1,25 @@
+<fieldset class="f">
+<h2><p>Contact us</p></h2>
+<form class="form">
+
+  <!-- name -->
+  <div class="field">
+    <input type="text"  name="name" class="input" placeholder="Your Name" [(ngModel)]="name">
+  </div>
+<br/>
+  <!-- email -->
+  <div class="field">
+    <input type="email"  name="email" class="input" placeholder="Your Email" [(ngModel)]="email">
+  </div>
+<br/>
+  <!-- message -->
+  <div class="field">
+    <textarea class="textarea" name="message" placeholder="Your Message..." [(ngModel)]="message"></textarea>
+  </div>
+
+  <button type="submit" class="button is-danger is-large" (click)="onClickMe()">Send</button>
+  <br/>
+   <h4>{{clickMessage}}</h4>
+
+</form>
+</fieldset>
